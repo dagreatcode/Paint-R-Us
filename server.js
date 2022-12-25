@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === "production") {
 	app.use(express.static("client/build"));
 }
 mongoose.connect(
-	process.env.MONGODB_URI || "mongodb://localhost/paint-r-us",
+	process.env.MONGODB_URI || "mongodb://localhost/paint-r-us_db",
 	{
 		useNewUrlParser: true,
 		useUnifiedTopology: true,
