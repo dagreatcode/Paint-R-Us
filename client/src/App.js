@@ -8,6 +8,10 @@ import {
 
 import Home from "./containers/Home/Home";
 import NotFound from "./containers/NotFound/NotFound";
+import Login from "./containers/Login/Login";
+import ContactUs from "./containers/ContactUs/ContactUs";
+import AboutUs from "./containers/AboutUs/AboutUs";
+import Portfolio from "./containers/Portfolio/Portfolio";
 
 function App() {
   return (
@@ -17,9 +21,10 @@ function App() {
             <Router>
               {/* <NavBar /> */}
               <Routes>
-                {/* <Route exact path="/About" element={<About />} />
-                <Route exact path="/Profile" element={<Profile />} />
-                <Route exact path="/Contact" element={<Contact />} /> */}
+                <Route exact path="/AboutUs" element={<AboutUs />} />
+                <Route exact path="/ContactUs" element={<ContactUs />} />
+                <Route exact path="/Portfolio" element={<Portfolio />} />
+                <Route exact path="/Login" element={<Login />} /> 
                 <Route exact path="/" element={<Home />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
