@@ -6,6 +6,7 @@ import {
   // Navigate,
 } from "react-router-dom";
 
+import NavBar from "./containers/NavBar/NavBar";
 import Home from "./containers/Home/Home";
 import NotFound from "./containers/NotFound/NotFound";
 import Login from "./containers/Login/Login";
@@ -19,7 +20,7 @@ function App() {
         <div className="page-container">
           <div className="content-wrap">
             <Router>
-              {/* <NavBar /> */}
+              <NavBar />
               <Routes>
                 <Route exact path="/AboutUs" element={<AboutUs />} />
                 <Route exact path="/ContactUs" element={<ContactUs />} />
