@@ -6,7 +6,7 @@ import {
   // Navigate,
 } from "react-router-dom";
 
-import NavBar from "./containers/NavBar/NavBar";
+import NavBar from "./components/NavBar/NavBar";
 import Home from "./containers/Home/Home";
 import NotFound from "./containers/NotFound/NotFound";
 import Login from "./containers/Login/Login";
