@@ -21,7 +21,7 @@ export default function Login() {
         <input
           type="password"
           className="form-control"
-          id="exampleFormControlInput1"
+          id="exampleFormControlInput2"
           placeholder="Password Here"
         />
       </div>
