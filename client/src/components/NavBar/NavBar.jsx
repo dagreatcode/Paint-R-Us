@@ -7,7 +7,7 @@ export default function NavBar() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            Navbar
+            Paint-R-Us
           </Link>
           <button
             className="navbar-toggler"
@@ -22,9 +22,24 @@ export default function NavBar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+                <NavLink className="nav-link active" aria-current="page" to="/Portfolio">
+                   Portfolio
+                </NavLink>
+              </li>
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/">
-                  Home
+                <NavLink className="nav-link active" aria-current="page" to="/AboutUs">
+                  About Us
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link active" aria-current="page" to="/ContactUs">
+                  Contact Us
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link active" aria-current="page" to="/Login">
+                  Login
                 </NavLink>
               </li>
               <li className="nav-item">
