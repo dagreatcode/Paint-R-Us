@@ -1,5 +1,6 @@
 import React from "react";
 import CarBanner from "./img/banner.png";
+import { Link } from "react-router-dom";
 
 function Banner() {
   return (
@@ -33,17 +34,17 @@ function Banner() {
               role="button"
               aria-disabled="true"
             >
-              Contact
+              Call
             </a>
-            <a
-              href="/"
+            <Link
+              to="/ContactUs"
               className="btn btn-dark btn-sm"
               tabindex="-1"
               role="button"
               aria-disabled="true"
             >
               Appointment
-            </a>
+            </Link>
           </div>
         </div>
       </div>

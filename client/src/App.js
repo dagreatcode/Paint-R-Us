@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
 import Home from "./containers/Home/Home";
 import NotFound from "./containers/NotFound/NotFound";
 import Login from "./containers/Login/Login";
@@ -29,7 +30,7 @@ function App() {
                 <Route exact path="/" element={<Home />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
-              {/* <Footer /> */}
+              <Footer />
             </Router>
           </div>
         </div>
