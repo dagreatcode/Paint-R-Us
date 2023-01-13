@@ -7,13 +7,13 @@ function Banner() {
       <div className="container">
         <div className="row">
           <img
-            style={{ textAlign: "center" }}
+            style={{ textAlign: "center", position: "relative" }}
             src={CarBanner}
             alt="this is car banner"
           />
-          <div style={{ textAlign: "center" }}>
+          <div style={{ textAlign: "center", position: "absolute" }}>
             <a
-              href="tel:(1)(4043371206)"
+              href="tel:(1)(4708540470)"
               className="btn btn-primary"
               tabindex="-1"
               role="button"

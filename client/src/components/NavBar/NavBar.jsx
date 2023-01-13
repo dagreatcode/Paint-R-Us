@@ -50,7 +50,7 @@ export default function NavBar() {
               <li className="nav-item dropdown">
                 <NavLink
                   className="nav-link dropdown-toggle"
-                  to="#"
+                  to="/"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
