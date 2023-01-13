@@ -4,17 +4,19 @@ import CarBanner from "./img/banner.png";
 function Banner() {
   return (
     <>
-      <div className="container">
+      <div style={{ position: "relative" }} className="container">
         <div className="row">
           <img
-            style={{ textAlign: "center", position: "relative" }}
+            style={{ textAlign: "center" }}
             src={CarBanner}
             alt="this is car banner"
           />
-          <div style={{ textAlign: "center", position: "absolute" }}>
+          <div style={{ fontFamily: "Cursive",   fontStyle: "italic", fontSize: "40px"
+,textAlign: "center", position: "absolute", top: "15%" }}>PAINT R US</div>
+          <div style={{ textAlign: "center", position: "absolute", top: "60%" }}>
             <a
               href="tel:(1)(4708540470)"
-              className="btn btn-primary"
+              className="btn btn-dark"
               tabindex="-1"
               role="button"
               aria-disabled="true"
@@ -23,7 +25,7 @@ function Banner() {
             </a>
             <a
               href="/"
-              className="btn btn-primary"
+              className="btn btn-dark"
               tabindex="-1"
               role="button"
               aria-disabled="true"
