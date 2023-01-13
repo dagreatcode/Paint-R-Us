@@ -5,12 +5,15 @@ const Footer = () => {
     <>
       <div
         style={{
+          // height: "200px",
+          margin: "0",
           position: "absolute",
-          // position: "fixed",
+        //   position: "fixed",
           left: "0",
-          bottom: "0",
+          verticalAlign: "baseline",
+        //   bottom: "0%",
           width: "100%",
-          //   backgroundColor: "red",
+            backgroundColor: "red",
           //   color: "white",
           textAlign: "center",
         }}
