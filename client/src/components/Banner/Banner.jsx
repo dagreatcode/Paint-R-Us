@@ -28,7 +28,7 @@ function Banner() {
           >
             <a
               href="tel:(1)(4708540470)"
-              className="btn btn-dark"
+              className="btn btn-dark btn-sm"
               tabindex="-1"
               role="button"
               aria-disabled="true"
@@ -37,7 +37,7 @@ function Banner() {
             </a>
             <a
               href="/"
-              className="btn btn-dark"
+              className="btn btn-dark btn-sm"
               tabindex="-1"
               role="button"
               aria-disabled="true"
