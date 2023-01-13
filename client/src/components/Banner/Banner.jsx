@@ -13,7 +13,7 @@ function Banner() {
           />
           <div
             style={{
-              fontFamily: "Cursive",
+              fontFamily: "Arial, Helvetica, sans-serif",
               fontStyle: "italic",
               fontSize: "20px",
               textAlign: "center",
@@ -21,7 +21,7 @@ function Banner() {
               top: "10%"
             }}
           >
-            PAINT-R-US
+            PAINT   R   US
           </div>
           <div
             style={{ textAlign: "center", position: "absolute", top: "50%" }}
