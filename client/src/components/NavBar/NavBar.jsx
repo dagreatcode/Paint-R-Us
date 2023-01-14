@@ -1,13 +1,15 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./NavBar.css";
+import Logo from "./Component 1.png"
+
 export default function NavBar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            Paint-R-Us
+          <img src={Logo} alt="Bootstrap" style={{ width: "30", height: "24"}} />          
           </Link>
           <button
             className="navbar-toggler"
