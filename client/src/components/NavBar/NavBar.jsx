@@ -25,32 +25,33 @@ export default function NavBar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/Portfolio">
+                <NavLink style={{color: "#C4DDFF"}} className="nav-link active" aria-current="page" to="/Portfolio">
                    Portfolio
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/AboutUs">
+                <NavLink style={{color: "#C4DDFF"}} className="nav-link active" aria-current="page" to="/AboutUs">
                   About Us
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/ContactUs">
+                <NavLink style={{color: "#C4DDFF"}} className="nav-link active" aria-current="page" to="/ContactUs">
                   Contact Us
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/Login">
+                <NavLink style={{color: "#C4DDFF"}} className="nav-link active" aria-current="page" to="/Login">
                   Login
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/">
+                <NavLink style={{color: "#C4DDFF"}} className="nav-link" to="/">
                   Link
                 </NavLink>
               </li>
               <li className="nav-item dropdown">
                 <NavLink
+                style={{color: "#C4DDFF"}}
                   className="nav-link dropdown-toggle"
                   to="/"
                   role="button"
@@ -81,7 +82,7 @@ export default function NavBar() {
                 </ul>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link disabled">Disabled</NavLink>
+                <NavLink style={{color: "#C4DDFF"}} className="nav-link disabled">Disabled</NavLink>
               </li>
             </ul>
             <form className="d-flex" role="search">
