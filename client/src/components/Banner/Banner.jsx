@@ -6,13 +6,13 @@ function Banner() {
   return (
     <>
       <div
+        className="row"
         style={{
           display: "flex",
           justifyContent: "center",
           textAlign: "center",
           position: "relative",
         }}
-        className="container"
       >
         <img
           style={{ textAlign: "center" }}
