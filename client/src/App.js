@@ -17,7 +17,7 @@ import Portfolio from "./containers/Portfolio/Portfolio";
 
 function App() {
   return (
-    <div>
+    <div style={{color: "#001D6E", backgroundColor: "#7FB5FF"}}>   
         <div className="page-container">
           <div className="content-wrap">
             <Router>
