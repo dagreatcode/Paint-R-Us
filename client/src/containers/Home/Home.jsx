@@ -18,7 +18,7 @@ const Home = () => {
             display: "flex",
             justifyContent: "center",
             textAlign: "center",
-            margin: "100px"
+            margin: "100px 20p"
           }}
         >
           <div
