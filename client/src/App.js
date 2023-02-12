@@ -14,6 +14,7 @@ import Login from "./containers/Login/Login";
 import ContactUs from "./containers/ContactUs/ContactUs";
 import AboutUs from "./containers/AboutUs/AboutUs";
 import Portfolio from "./containers/Portfolio/Portfolio";
+import Admin from "./containers/Admin/Admin";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
                 <Route exact path="/AboutUs" element={<AboutUs />} />
                 <Route exact path="/ContactUs" element={<ContactUs />} />
                 <Route exact path="/Portfolio" element={<Portfolio />} />
+                <Route exact path="/Admin" element={<Admin />} />
                 <Route exact path="/Login" element={<Login />} /> 
                 <Route exact path="/" element={<Home />} />
                 <Route path="*" element={<NotFound />} />
