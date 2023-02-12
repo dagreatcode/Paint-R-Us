@@ -24,11 +24,13 @@ const Home = () => {
           <div
             className="card mb-3"
             style={{
+              top:"50px",
               backgroundColor: "#C4DDFF",
               maxWidth: "840px",
               borderStyle: "outset",
               padding: "10px",
               boxShadow: " 5px 10px #FEE2C5",
+
             }}
           >
             <div className="row g-0">
@@ -68,7 +70,7 @@ const Home = () => {
                   borderStyle: "outset",
                   padding: "10px",
                   boxShadow: " 5px 10px #FEE2C5",
-                  margin: "50px"
+                  margin: "20px"
                 }}
               >
                 <img src={BodyW} className="card-img-top" alt="..." />
@@ -91,7 +93,7 @@ const Home = () => {
                   borderStyle: "outset",
                   padding: "10px",
                   boxShadow: " 5px 10px #FEE2C5",
-                  margin: "50px"
+                  margin: "20px"
                 }}
               >
                 <img src={PaintR} className="card-img-top" alt="..." />
@@ -114,7 +116,7 @@ const Home = () => {
                   borderStyle: "outset",
                   padding: "10px",
                   boxShadow: " 5px 10px #FEE2C5",
-                  margin: "50px"
+                  margin: "20px"
                 }}
               >
                 <img src={Painter} className="card-img-top" alt="..." />
@@ -136,7 +138,7 @@ const Home = () => {
                   borderStyle: "outset",
                   padding: "10px",
                   boxShadow: " 5px 10px #FEE2C5",
-                  margin: "50px"
+                  margin: "20px"
                 }}
               >
                 <img src={Polishing} className="card-img-top" alt="..." />
