@@ -2,11 +2,13 @@ import React from "react";
 import Before from "./Img/Before.jpg";
 import Process from "./Img/Process.jpg";
 import After from "./Img/After.jpg";
+import After2 from "./Img/After2.jpg";
+import After3 from "./Img/After3.jpg";
 
 function Portfolio() {
   return (
     <>
-      <div>Portfolio</div>
+      <div style={{textAlign: "center", justifyContent: "center", margin: "100px 20p"}}>Portfolio</div>
 
       <div className="container" style={{ textAlign: "center" }}>
         <div className="row">
@@ -41,7 +43,17 @@ function Portfolio() {
             <img
               src={After}
               alt="Bootstrap"
-              style={{ width: "auto", height: "auto" }}
+              style={{ width: "30", height: "24" }}
+            />
+            <img
+              src={After2}
+              alt="Bootstrap"
+              style={{ width: "30", height: "24" }}
+            />
+            <img
+              src={After3}
+              alt="Bootstrap"
+              style={{ width: "30", height: "24" }}
             />
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse
