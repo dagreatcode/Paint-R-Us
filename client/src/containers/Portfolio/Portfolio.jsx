@@ -41,7 +41,7 @@ function Portfolio() {
             <img
               src={After}
               alt="Bootstrap"
-              style={{ width: "700px", height: "auto" }}
+              style={{ width: "auto", height: "auto" }}
             />
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse
