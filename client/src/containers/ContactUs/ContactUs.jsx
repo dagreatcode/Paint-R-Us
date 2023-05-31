@@ -171,7 +171,11 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-          <Button onClick={handleSubmit}>go</Button>
+          <Button onClick={handleSubmit} style={{
+              display: "flex",
+              justifyContent: "center",
+              textAlign: "center",
+            }}>go</Button>
         </div>
       </form>
     </>
