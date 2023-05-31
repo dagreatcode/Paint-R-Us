@@ -31,7 +31,7 @@ function AboutUs() {
               border: "10px solid #001d6e",
               width: "50%",
               height: "70%",
-              padding: "10px"
+              padding: "10px",
             }}
             src={bodyWork}
             className="card-img"
