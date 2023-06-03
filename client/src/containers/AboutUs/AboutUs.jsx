@@ -5,7 +5,7 @@ function AboutUs() {
   return (
     <>
       <div className="container">
-        <h1 style={{ textAlign: "center" }}>About Us</h1>
+        <h1 style={{ padding: "50px", textAlign: "center" }}>About Us</h1>
         <div className="row">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

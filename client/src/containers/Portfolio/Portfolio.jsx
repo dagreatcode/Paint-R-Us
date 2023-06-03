@@ -8,7 +8,7 @@ import After3 from "./Img/After3.jpg";
 function Portfolio() {
   return (
     <>
-      <div style={{textAlign: "center", justifyContent: "center", margin: "100px 20p"}}>Portfolio</div>
+      <h1 style={{padding: "50px", textAlign: "center", justifyContent: "center", margin: "100px 20p"}}>Portfolio</h1>
 
       <div className="container" style={{ textAlign: "center" }}>
         <div className="row">
