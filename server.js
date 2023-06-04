@@ -68,6 +68,8 @@ app.post("/api/mail/", async (req, res) => {
 
     // send mail with defined transport object
     let info = await transporter.sendMail({
+      //TODO: Add a area for customer to add number to contact them on.
+      //FIXME: Send to a real email address.
       from: `"Fred Foo 👻" <${email}>`, // sender address
       to: "dagreatcode@gmail.com, baz@example.com", // list of receivers
       subject: `Hello ✔, ${name}`, // Subject line
