@@ -68,11 +68,11 @@ app.post("/api/mail/", async (req, res) => {
 
     // send mail with defined transport object
     let info = await transporter.sendMail({
-      from: '"Fred Foo 👻" <dagreatcode@gmail.com>', // sender address
+      from: `"Fred Foo 👻" <${email}>`, // sender address
       to: "dagreatcode@gmail.com, baz@example.com", // list of receivers
-      subject: "Hello ✔", // Subject line
-      text: "Hello world?", // plain text body
-      html: "<b>Hello world?</b>", // html body
+      subject: `Hello ✔, ${name}`, // Subject line
+      text: `Hello world?, ${message}`, // plain text body
+      html: `<b>Hello world?, ${message}</b>`, // html body
     });
 
     console.log("Message sent: %s", info.messageId);
