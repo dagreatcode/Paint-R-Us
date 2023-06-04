@@ -3,6 +3,7 @@ import Input from "./Input";
 import TextArea from "./TextArea";
 import axios from "axios";
 import Button from "react-bootstrap/Button";
+import Alert from "react-bootstrap/Alert";
 
 const ContactUs = () => {
   //   const Notify = require('app-notify');
@@ -12,6 +13,9 @@ const ContactUs = () => {
   const [clientName, setName] = useState("");
   const [clientMessage, setMessage] = useState("");
   const [clientEmail, setEmail] = useState("");
+
+  const [show, setShow] = useState(false);
+
   // const sendEmail = require("send-email");
   // console.log(sendEmail)
   const handleSubmit = async (e) => {
@@ -37,7 +41,16 @@ const ContactUs = () => {
       body: { clientName, clientMessage, clientEmail },
     });
     console.log("res:", res);
+    setShow(true);
+    // const data = await res.json();
 
+    // if (data.status === 401 || !data) {
+    //   console.log("error");
+    // } else {
+    //   console.log("Email Sent");
+    //   setShow(true);
+    //   setEmail("");
+    // }
     // axios.get(`/api/mail/${clientName},${clientMessage},${clientEmail}`, {
     //   method: "GET",
     // });
@@ -92,6 +105,14 @@ const ContactUs = () => {
   };
   return (
     <>
+      {show ? 
+        <Alert variant="primary" onClose={() => setShow(false)} dismissible>
+          <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
+          Email Sent Successfully
+        </Alert>
+       : 
+        ""
+      }
       <h1
         style={{
           padding: "50px",
@@ -129,13 +150,13 @@ const ContactUs = () => {
                   htmlFor="exampleFormControlInput1"
                   className="form-label"
                 >
-                  Name
+                  Name & Number
                 </label>
                 <Input
                   type="text"
                   className="form-control"
                   id="exampleFormControlInput1"
-                  placeholder="John Doe"
+                  placeholder="John Doe - 1(444)-444-4444"
                   name="clientName"
                   value={clientName}
                   handleInputChange={(e) => {
