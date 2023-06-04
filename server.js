@@ -47,13 +47,14 @@ app.get("/apiFun", (req, res) => {
 
 // resolve.fallback: { "crypto": require.resolve("crypto-browserify") }
 
-app.get("/api/mail", async (req, res) => {
-  console.log(req.body);
-  console.log(req.params);
+app.post("/api/mail/", async (req, res) => {
+  // console.log(req.body);
+  // console.log(res);
   var name = req.body.clientName;
   var email = req.body.clientEmail;
   var message = req.body.clientMessage;
   console.log(name, email, message);
+  console.log("console hit")
   try {
     let transporter = nodemailer.createTransport({
       host: "smtp.ethereal.email",

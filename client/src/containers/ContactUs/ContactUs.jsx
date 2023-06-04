@@ -17,7 +17,7 @@ const ContactUs = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     // const cfg = {};
-    console.log("Hello");
+    console.log("Hello from react");
 
     //  try{
     // console.log("hello");
@@ -25,17 +25,18 @@ const ContactUs = () => {
     //   console.log(error)
     //  }
     const res = await axios("/api/mail", {
-      method: "GET",
+      method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({
+      data: {
         clientName,
         clientMessage,
         clientEmail,
-      }),
+      },
+      body: { clientName, clientMessage, clientEmail },
     });
-    console.log(res);
+    console.log("res:", res);
 
     // axios.get(`/api/mail/${clientName},${clientMessage},${clientEmail}`, {
     //   method: "GET",
@@ -135,7 +136,7 @@ const ContactUs = () => {
                   className="form-control"
                   id="exampleFormControlInput1"
                   placeholder="John Doe"
-                  name="name"
+                  name="clientName"
                   value={clientName}
                   handleInputChange={(e) => {
                     setName(e.target.value);
@@ -165,7 +166,7 @@ const ContactUs = () => {
                   className="form-control"
                   id="exampleFormControlInput2"
                   placeholder="name@example.com"
-                  name="email"
+                  name="clientEmail"
                   value={clientEmail}
                   handleInputChange={(e) => {
                     setEmail(e.target.value);
@@ -192,11 +193,12 @@ const ContactUs = () => {
                   Message
                 </label>
                 <TextArea
+                  type="text"
                   className="form-control"
                   id="exampleFormControlTextarea3"
                   rows="3"
                   placeholder="What would you like done?"
-                  name="message"
+                  name="clientMessage"
                   value={clientMessage}
                   handleInputChange={(e) => {
                     setMessage(e.target.value);
@@ -219,6 +221,7 @@ const ContactUs = () => {
           </div>
         </div>
         <Button
+          type="submit"
           onClick={handleSubmit}
           style={{
             margin: "auto",
