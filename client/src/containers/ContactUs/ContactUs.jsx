@@ -105,17 +105,18 @@ const ContactUs = () => {
   };
   return (
     <>
-      {show ? 
+      {show ? (
         <Alert variant="primary" onClose={() => setShow(false)} dismissible>
           <Alert.Heading>We Will Get Back To You ASAP!</Alert.Heading>
-          Email Sent Successfully. Thank you for your services.
+          Email Sent Successfully. Thank you for choosing Paint-R-Us.
         </Alert>
-       : 
-       <Alert variant="dander" onClose={() => setShow(false)} dismissible>
-       <Alert.Heading>Looks like we are forgetting something!</Alert.Heading>
-       Please make sure you leave your name or number, your email and message: services needed.
-     </Alert>
-      }
+      ) : (
+        <Alert variant="dander" onClose={() => setShow(false)} dismissible>
+          <Alert.Heading> We Will Work Fast To Contact You!</Alert.Heading>
+          Please make sure you leave your name & number, your email and message:
+          "services needed".
+        </Alert>
+      )}
       <h1
         style={{
           padding: "50px",

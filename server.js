@@ -63,6 +63,8 @@ app.post("/api/mail/", async (req, res) => {
       auth: {
         user: "lewis.dare@ethereal.email", // generated ethereal user
         pass: "kRQUMGZGPcppMMHHSD", // generated ethereal password
+        // user: process.env.Username, // generated ethereal user
+        // pass: process.env.Password, // generated ethereal password
       },
     });
 
@@ -70,11 +72,11 @@ app.post("/api/mail/", async (req, res) => {
     let info = await transporter.sendMail({
       //TODO: Add a area for customer to add number to contact them on.
       //FIXME: Send to a real email address.
-      from: `"Fred Foo 👻" <${email}>`, // sender address
+      from: `"${name} 🚘" <${email}>`, // sender address
       to: "dagreatcode@gmail.com, baz@example.com", // list of receivers
-      subject: `Hello ✔, ${name}`, // Subject line
-      text: `Hello world?, ${message}`, // plain text body
-      html: `<b>Hello world?, ${message}</b>`, // html body
+      subject: `${name} need some work done`, // Subject line
+      text: `${message}`, // plain text body
+      html: `<b>${message}</b>`, // html body
     });
 
     console.log("Message sent: %s", info.messageId);
