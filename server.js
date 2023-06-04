@@ -47,7 +47,7 @@ app.get("/apiFun", (req, res) => {
 
 // resolve.fallback: { "crypto": require.resolve("crypto-browserify") }
 
-app.post("/api/mail", async (req, res) => {
+app.get("/api/mail", async (req, res) => {
   console.log(req.body);
   console.log(req.params);
   var name = req.body.clientName;

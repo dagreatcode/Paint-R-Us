@@ -25,7 +25,7 @@ const ContactUs = () => {
     //   console.log(error)
     //  }
     const res = await axios("/api/mail", {
-      method: "POST",
+      method: "GET",
       headers: {
         "Content-Type": "application/json",
       },
@@ -37,9 +37,9 @@ const ContactUs = () => {
     });
     console.log(res);
 
-    axios.get(`/api/mail/${clientName},${clientMessage},${clientEmail}`, {
-      method: "GET",
-    });
+    // axios.get(`/api/mail/${clientName},${clientMessage},${clientEmail}`, {
+    //   method: "GET",
+    // });
 
     // //setup smtp server
     // cfg.smtp = {
