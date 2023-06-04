@@ -107,11 +107,14 @@ const ContactUs = () => {
     <>
       {show ? 
         <Alert variant="primary" onClose={() => setShow(false)} dismissible>
-          <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
-          Email Sent Successfully
+          <Alert.Heading>We Will Get Back To You ASAP!</Alert.Heading>
+          Email Sent Successfully. Thank you for your services.
         </Alert>
        : 
-        ""
+       <Alert variant="dander" onClose={() => setShow(false)} dismissible>
+       <Alert.Heading>Looks like we are forgetting something!</Alert.Heading>
+       Please make sure you leave your name or number, your email and message: services needed.
+     </Alert>
       }
       <h1
         style={{
