@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Input from "./Input";
 import TextArea from "./TextArea";
-
+import axios from "axios";
 import Button from "react-bootstrap/Button";
 
 const ContactUs = () => {
@@ -17,6 +17,16 @@ const ContactUs = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // const cfg = {};
+    console.log("Hello");
+
+    //  try{
+    console.log("hello");
+    //  }catch(error){
+    //   console.log(error)
+    //  }
+    axios.get(`/api/mail/${clientName},${clientMessage},${clientEmail}`, {
+      method: "GET",
+    });
 
     // //setup smtp server
     // cfg.smtp = {
@@ -112,7 +122,7 @@ const ContactUs = () => {
                   className="form-control"
                   id="exampleFormControlInput1"
                   placeholder="John Doe"
-                  name="clientName"
+                  name="name"
                   value={clientName}
                   handleInputChange={(e) => {
                     setName(e.target.value);
@@ -142,7 +152,7 @@ const ContactUs = () => {
                   className="form-control"
                   id="exampleFormControlInput2"
                   placeholder="name@example.com"
-                  name="clientEmail"
+                  name="email"
                   value={clientEmail}
                   handleInputChange={(e) => {
                     setEmail(e.target.value);
@@ -173,6 +183,7 @@ const ContactUs = () => {
                   id="exampleFormControlTextarea3"
                   rows="3"
                   placeholder="What would you like done?"
+                  name="message"
                   value={clientMessage}
                   handleInputChange={(e) => {
                     setMessage(e.target.value);
@@ -210,8 +221,8 @@ const ContactUs = () => {
         title="myFrame"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613507864!3d-6.194741395493371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x6b45e67356080477!2sPT%20Kulkul%20Teknologi%20Internasional!5e0!3m2!1sen!2sid!4v1601138221085!5m2!1sen!2sid"
         // frameBorder="0"
-        width="700"
-        height="550"
+        width="500"
+        height="450"
         style={{
           padding: "10px",
           border: "0",

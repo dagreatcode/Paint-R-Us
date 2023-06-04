@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const TextArea = ({ value, id, className, handleInputChange, placeholder, name, type, rows }) => {
+const TextArea = ({ value, handleInputChange, id, className, placeholder, rows }) => {
   return (
     <div>
       <textarea
@@ -18,11 +18,11 @@ const TextArea = ({ value, id, className, handleInputChange, placeholder, name, 
 
 TextArea.propTypes = {
   value: PropTypes.string.isRequired,
-  onChange: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
+  // onChange: PropTypes.string.isRequired,
+  // name: PropTypes.string.isRequired,
   placeholder: PropTypes.string.isRequired,
-  row: PropTypes.string.isRequired,
-  type: PropTypes.string.isRequired,
+  // row: PropTypes.string.isRequired,
+  // type: PropTypes.string.isRequired,
   rows: PropTypes.string.isRequired,
 };
 
