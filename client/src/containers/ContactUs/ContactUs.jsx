@@ -14,16 +14,29 @@ const ContactUs = () => {
   const [clientEmail, setEmail] = useState("");
   // const sendEmail = require("send-email");
   // console.log(sendEmail)
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     // const cfg = {};
     console.log("Hello");
 
     //  try{
-    console.log("hello");
+    // console.log("hello");
     //  }catch(error){
     //   console.log(error)
     //  }
+    const res = await axios("/api/mail", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        clientName,
+        clientMessage,
+        clientEmail,
+      }),
+    });
+    console.log(res);
+
     axios.get(`/api/mail/${clientName},${clientMessage},${clientEmail}`, {
       method: "GET",
     });
