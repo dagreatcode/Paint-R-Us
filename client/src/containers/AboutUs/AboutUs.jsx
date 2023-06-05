@@ -24,13 +24,16 @@ function AboutUs() {
             <br />
           </p>
         </div>
+
+        <br />
+        <br />
         <div style={{ textAlign: "center" }}>
           <img
             style={{
-              margin: "auto",
+              // margin: "auto",
               border: "10px solid #001d6e",
-              width: "50%",
-              height: "70%",
+              // width: "50%",
+              // height: "70%",
               padding: "10px",
             }}
             src={bodyWork}
@@ -38,6 +41,10 @@ function AboutUs() {
             alt="..."
           />
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
         <div className="row">
           <div className="col-md-6 d-flex align-items-stretch">
             <p>
@@ -91,6 +98,10 @@ function AboutUs() {
           </div>
         </div>
       </div>
+      <br />
+        <br />
+        <br />
+        <br />
     </>
   );
 }
