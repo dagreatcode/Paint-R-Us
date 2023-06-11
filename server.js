@@ -61,8 +61,8 @@ app.post("/api/mail/", async (req, res) => {
       port: 587,
       secure: false, // true for 465, false for other ports
       auth: {
-        user: "lewis.dare@ethereal.email", // generated ethereal user
-        pass: "kRQUMGZGPcppMMHHSD", // generated ethereal password
+        user: process.env.mailName, // generated ethereal user
+        pass: process.env.mailPassword, // generated ethereal password
         // user: process.env.Username, // generated ethereal user
         // pass: process.env.Password, // generated ethereal password
       },
