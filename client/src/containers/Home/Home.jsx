@@ -12,52 +12,85 @@ const Home = () => {
     <>
       <Banner />
       <div className="container">
-        <div
-          className="row"
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            textAlign: "center",
-            margin: "100px 20p"
-          }}
-        >
+        <div className="row">
           <div
-            className="card mb-3"
+            className="row"
             style={{
-              top:"50px",
-              backgroundColor: "#C4DDFF",
-              maxWidth: "840px",
-              borderStyle: "outset",
-              padding: "10px",
-              boxShadow: " 5px 10px #FEE2C5",
-
+              display: "flex",
+              justifyContent: "center",
+              textAlign: "center",
+              margin: "100px 20p",
             }}
           >
-            <div className="row g-0">
-              <div className="col-md-4">
-                <img
-                  src={ServiceMan}
-                  className="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div className="col-md-8">
-                <div className="card-body" style={{}}>
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <p className="card-text">
-                    <small className="text-muted">
-                      Last updated 3 mins ago
-                    </small>
-                  </p>
+            <div
+              className="card mb-3"
+              style={{
+                top: "50px",
+                backgroundColor: "#C4DDFF",
+                maxWidth: "840px",
+                borderStyle: "outset",
+                padding: "10px",
+                boxShadow: " 5px 10px #FEE2C5",
+              }}
+            >
+              <div className="row g-0">
+                <div className="col-md-4">
+                  <img
+                    src={ServiceMan}
+                    className="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div className="col-md-8">
+                  <div className="card-body" style={{}}>
+                    <h5 className="card-title">Card title</h5>
+                    <p className="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p className="card-text">
+                      <small className="text-muted">
+                        Last updated 3 mins ago
+                      </small>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <br /> <br />
+        <div className="row" style={{padding: "50px", display: "flex",
+          justifyContent: "center",
+          textAlign: "center",}}>
+            <div className="col-sm-4"><lord-icon
+            src="https://cdn.lordicon.com/iltqorsz.json"
+            trigger="hover"
+            colors="primary:#001d6e,secondary:#cfe2ff"
+            style={{ width: "150px", height: "150px", padding: "30px", }}
+          ></lord-icon></div>
+            <div className="col-sm-4">
+            <lord-icon
+            src="https://cdn.lordicon.com/sbiheqdr.json"
+            trigger="hover"
+            colors="primary:#001d6e,secondary:#cfe2ff"
+            style={{ width: "150px", height: "150px", padding: "30px", }}
+          ></lord-icon>
+            </div>
+            <div className="col-sm-4">
+            <lord-icon
+            src="https://cdn.lordicon.com/zpxybbhl.json"
+            trigger="hover"
+            colors="primary:#001d6e,secondary:#cfe2ff"
+            style={{ width: "150px", height: "150px", padding: "30px", }}
+          ></lord-icon>
+            </div>
+          
+
+          
+
+          
         </div>
         <div className="row">
           <div className="row row-cols-1 row-cols-md-2 g-4">
@@ -70,7 +103,7 @@ const Home = () => {
                   borderStyle: "outset",
                   padding: "10px",
                   boxShadow: " 5px 10px #FEE2C5",
-                  margin: "20px"
+                  margin: "20px",
                 }}
               >
                 <img src={BodyW} className="card-img-top" alt="..." />
@@ -93,7 +126,7 @@ const Home = () => {
                   borderStyle: "outset",
                   padding: "10px",
                   boxShadow: " 5px 10px #FEE2C5",
-                  margin: "20px"
+                  margin: "20px",
                 }}
               >
                 <img src={PaintR} className="card-img-top" alt="..." />
@@ -116,7 +149,7 @@ const Home = () => {
                   borderStyle: "outset",
                   padding: "10px",
                   boxShadow: " 5px 10px #FEE2C5",
-                  margin: "20px"
+                  margin: "20px",
                 }}
               >
                 <img src={Painter} className="card-img-top" alt="..." />
@@ -138,7 +171,7 @@ const Home = () => {
                   borderStyle: "outset",
                   padding: "10px",
                   boxShadow: " 5px 10px #FEE2C5",
-                  margin: "20px"
+                  margin: "20px",
                 }}
               >
                 <img src={Polishing} className="card-img-top" alt="..." />
