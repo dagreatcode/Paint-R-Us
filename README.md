@@ -1,28 +1,7 @@
 # Paint-R-Us
-Website for a body shop
-
-https://paint-r-us.onrender.com
-
-https://www.figma.com/file/PLO3yeIYcn8biC5OrbIIlO/Untitled?node-id=0%3A3&t=MPiwoVdVFkm6owjJ-0
-
-https://ethereal.email
-https://ethereal.email/login
-https://ethereal.email/messages
-https://ethereal.email/create
 
 ![Image of the Into Page](./README/README.png)
-
-Your GitHub profile is an extremely important aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file.
-
-The quality of a README often differentiates a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase what your application does, justify the technologies used, and even talk about some of the challenges you faced and features you hope to implement in the future. A good README helps you stand out among the large crowd of developers putting their work on GitHub.
-
-There's no one right way to structure a good README. There is one very wrong way, however, and that is to not include a README at all or to create a very anemic one. This guide outlines a few best practices. As you progress in your career, you will develop your own ideas about what makes a good README.
-
-At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out? If your project has a lot of features, consider adding a heading called "Features" and listing them here.
-
-If you're new to Markdown, read the GitHub guide on [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
-
-If you need an example of a good README, check out [the VSCode repository](https://github.com/microsoft/vscode).
+Website for a body shop
 
  ## _Links_:
 
@@ -153,6 +132,15 @@ I have learned a lot buy doing this portfolio. SEO needs to be awsome
 - [The URL of the GitHub repository](https://github.com/dagreatcode/paint-r-us)
 
 - [Task Dashboard](https://trello.com/)
+
+https://paint-r-us.onrender.com
+
+https://www.figma.com/file/PLO3yeIYcn8biC5OrbIIlO/Untitled?node-id=0%3A3&t=MPiwoVdVFkm6owjJ-0
+
+https://ethereal.email
+https://ethereal.email/login
+https://ethereal.email/messages
+https://ethereal.email/create
 
 ### Connect with me
 [<img align="left" alt="www.paint-r-us.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
