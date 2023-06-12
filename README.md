@@ -123,7 +123,7 @@ We are already working on 2.0 ideas, but 1.1 is almost done.
 
 # Review
 ```
-I have learned a lot buy doing this portfolio. SEO needs to be awsome
+I have learned a lot by doing this portfolio. SEO needs to be awsome
 ```
 
 # Project Links
