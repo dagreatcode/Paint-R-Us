@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
           <div className="row">
             <div className="col-sm-12">
-              <h6 style={{ color: "white" }}>© Copyright 2022</h6>
+              <h6 style={{ color: "white" }}>© Copyright 2022 Powered By DaGreatCode LLC</h6>
             </div>
           </div>
         </div>
