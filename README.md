@@ -3,16 +3,18 @@
 ![Image of the Into Page](./README/README.png)
 Website for a body shop
 
- ## _Links_:
+## _Links_:
 
 [](https://choosealicense.com/licenses/)
 [](https://shields.io/)
 [](https://www.markdownguide.org/basic-syntax)
 
-* [Github Link](https://github.com/dagreatcode/paint-r-us)
+- [Github Link](https://github.com/dagreatcode/paint-r-us)
 
-* [Website Link](https://www.paint-r-us.com/)
+- [Website Link](https://www.paint-r-us.com/)
+
 ## Index
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [User Story](#user-story)
@@ -30,29 +32,35 @@ Website for a body shop
 - [Connect with Me](#conecct-with-me)
 
 # Installation
+
 ## Downloading in the browser.
-* [Download the Paint R Us App](https://paint-r-us.onrender.com)
-There is a install indicator in the browser bar. Mobile user like IOS can click the send icon and the click ADD TO HOMEPAGE
+
+- [Download the Paint R Us App](https://paint-r-us.onrender.com)
+  There is a install indicator in the browser bar. Mobile user like IOS can click the send icon and then click ADD TO HOMEPAGE.
+
 ## Downloading this Code
-* [Download the Paint R Us Code](https://github.com/dagreatcode/paint-r-us)
-After installing, Change the database to a database you can access in the server.js file. Create a .env file and add the database string to connect the app to the database in the .env file. Example: MONGODB_URI=mongodb+srv:[with the rest of the string here].
-After adding the MongoDB database string to your .env file, run **npm install** in your terminal, making sure you are in the same folder as the server.js file.
-After installing the packages for the app to run, run **npm run** build. 
-After the build is done, run **npm start**.
 
-# Usage 
-Provide instructions and examples for use. Include screenshots as needed. 
+- [Download the Paint R Us Code](https://github.com/dagreatcode/paint-r-us)
+  After installing, Change the database to a database you can access in the server.js file. Create a .env file and add the database string to connect the app to the database in the .env file. Example: MONGODB_URI=mongodb+srv:[with the rest of the string here].
+  After adding the MongoDB database string to your .env file, run **npm install** in your terminal, making sure you are in the same folder as the server.js file.
+  After installing the packages for the app to run, run **npm run** build.
+  After the build is done, run **npm start**.
 
+# Usage
+
+Provide instructions and examples for use. Include screenshots as needed.
 
 # User Story
+
 ```md
 AS A User,
-I WANT a Business Site 
-SO THAT customers can make appointments and get in contact with us for car services. 
-Also find the location to show up and get a solid quote. 
+I WANT a Business Site
+SO THAT customers can make appointments and get in contact with us for car services.
+Also find the location to show up and get a solid quote.
 ```
 
 # Acceptance Criteria
+
 ```
 GIVEN a
 WHEN I
@@ -61,12 +69,15 @@ THEN I
 ```
 
 # Credits
-All Credits go to Georgia Institute of Technology Collage. I have Learned a lot and understand the structure and the objective of the course. The approve is understood and glad to be a Yellow Jacket.
 
+First Credits go to Georgia Institute of Technology Collage. I have Learned a lot and understand the structure and the objective of the course. The approve is understood and glad to be a Yellow Jacket.
+
+http://lordicon.com
+https://ethereal.email
 ---
 
-
 # License
+
 ```
 MIT License
 
@@ -92,41 +103,47 @@ SOFTWARE.
 ```
 
 # Badges
+
 ![Language](https://img.shields.io/github/languages/top/dagreatcode/paint-r-us?style=for-the-badge&logo=appveyor)
 
-🏆 
+🏆
 
 # Features
+
 What makes your project stand out?
-
-
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
 # Contributing
+
 When contributing to this repository, please first discuss the change you wish to make via issue, email
 If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
 
 # Tests
+
 Go the extra mile and write tests for your application. Then provide examples on how to run them.
 
 # Wire-Frame
-```
 
+```
+https://www.figma.com/file/PLO3yeIYcn8biC5OrbIIlO/Untitled?node-id=0%3A3&t=MPiwoVdVFkm6owjJ-0
 ```
 
 # Updates
+
 ```
 We are in 1.0
-We are already working on 2.0 ideas, but 1.1 is almost done.
+We are already working on 2.0 ideas, but version 1 is almost done and stable.
 ```
 
 # Review
+
 ```
-I have learned a lot by doing this portfolio. SEO needs to be awsome
+I have learned a lot by doing this portfolio. SEO needs to be awesome
 ```
 
 # Project Links
+
 - [The URL](https://www.paint-r-us.com/)
 
 - [The URL of the GitHub repository](https://github.com/dagreatcode/paint-r-us)
@@ -135,14 +152,12 @@ I have learned a lot by doing this portfolio. SEO needs to be awsome
 
 https://paint-r-us.onrender.com
 
-https://www.figma.com/file/PLO3yeIYcn8biC5OrbIIlO/Untitled?node-id=0%3A3&t=MPiwoVdVFkm6owjJ-0
-
-https://ethereal.email
 https://ethereal.email/login
 https://ethereal.email/messages
 https://ethereal.email/create
 
 ### Connect with me
+
 [<img align="left" alt="www.paint-r-us.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
 [<img align="left" alt="dagreatcode | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="dagreatcode | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
@@ -167,7 +182,7 @@ https://ethereal.email/create
 [vscode]: https://code.visualstudio.com/
 [git]: https://git-scm.com/
 [github]: https://github.com/
-[terminal]: http://www.vincentkendrick.com/
----
+
+## [terminal]: http://www.vincentkendrick.com/
 
 © 2022 DaGreat Code LLC. All Rights Reserved.

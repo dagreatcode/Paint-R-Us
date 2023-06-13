@@ -6,28 +6,16 @@ import Button from "react-bootstrap/Button";
 import Alert from "react-bootstrap/Alert";
 
 const ContactUs = () => {
-  //   const Notify = require('app-notify');
-  // const cfg = {...};
-  // const notify = new Notify(cfg);
-
   const [clientName, setName] = useState("");
   const [clientMessage, setMessage] = useState("");
   const [clientEmail, setEmail] = useState("");
 
   const [show, setShow] = useState(false);
 
-  // const sendEmail = require("send-email");
-  // console.log(sendEmail)
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // const cfg = {};
     console.log("Hello from react");
 
-    //  try{
-    // console.log("hello");
-    //  }catch(error){
-    //   console.log(error)
-    //  }
     const res = await axios("/api/mail", {
       method: "POST",
       headers: {
@@ -42,66 +30,6 @@ const ContactUs = () => {
     });
     console.log("res:", res);
     setShow(true);
-    // const data = await res.json();
-
-    // if (data.status === 401 || !data) {
-    //   console.log("error");
-    // } else {
-    //   console.log("Email Sent");
-    //   setShow(true);
-    //   setEmail("");
-    // }
-    // axios.get(`/api/mail/${clientName},${clientMessage},${clientEmail}`, {
-    //   method: "GET",
-    // });
-
-    // //setup smtp server
-    // cfg.smtp = {
-    //     host: xxx,
-    //     user: user,
-    //     pass: pass,
-    //     port: port
-    // };
-
-    // //setup email headers
-    // cfg.email = {
-    //     to: 'user@example.com',
-    //     from: 'sender@example.com'
-    // };
-
-    // const Notify = require('app-notify');
-    // const notify = new Notify(cfg);
-
-    // //sends both
-    // notify.send({
-    //     subject: 'This is a test',
-    //     message: 'Hello world'
-    // });
-
-    // //disable email
-    // notify.cfg.email.disabled = true;
-
-    // //sends only sms
-    // notify.send({
-    //     message: 'Hello world',
-    // });
-    // const sgMail = require("@sendgrid/mail");
-    // sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-    // const msg = {
-    //   to: "dagreatcode@gmail.com.com", // Change to your recipient
-    //   from: "dagreatcode@gmail.com", // Change to your verified sender
-    //   subject: "Sending with SendGrid is Fun",
-    //   text: "and easy to do anywhere, even with Node.js",
-    //   html: "<strong>and easy to do anywhere, even with Node.js</strong>",
-    // };
-    // sgMail
-    //   .send(msg)
-    //   .then(() => {
-    //     console.log("Email sent");
-    //   })
-    //   .catch((error) => {
-    //     console.error(error);
-    //   });
   };
   return (
     <>
@@ -136,15 +64,12 @@ const ContactUs = () => {
         {" "}
         <lord-icon
           src="https://cdn.lordicon.com/zzcjjxew.json"
-          // margin="auto"
           trigger="hover"
           colors="primary:#001d6e,secondary:#cfe2ff"
           state="hover-spin"
           style={{
             width: "200px",
             height: "200px",
-            // display: "flex",
-            // justifyContent: "center",
           }}
         ></lord-icon>
       </div>

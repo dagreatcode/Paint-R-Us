@@ -178,13 +178,13 @@ const Home = () => {
                     trigger="hover"
                     colors="primary:#001d6e,secondary:#cfe2ff"
                     style={{
-                         marginLeft: "auto",
+                      marginLeft: "auto",
                       marginRight: "auto",
                       width: "140px",
                       height: "150px",
                       // display: "flex",
                       // justifyContent: "center",
-                      // textAlign: "center",
+                      textAlign: "center",
                     }}
                   ></lord-icon>
                 </Row>
@@ -196,7 +196,7 @@ const Home = () => {
                       textAlign: "center",
                     }}
                   >
-                     Consultation
+                    Consultation
                   </h1>
                 </Row>
                 <Row>
