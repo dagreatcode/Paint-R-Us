@@ -61,36 +61,39 @@ const Home = () => {
           </div>
         </div>
         <br /> <br />
-        <div className="row" style={{padding: "50px", display: "flex",
-          justifyContent: "center",
-          textAlign: "center",}}>
-            <div className="col-sm-4"><lord-icon
-            src="https://cdn.lordicon.com/iltqorsz.json"
-            trigger="hover"
-            colors="primary:#001d6e,secondary:#cfe2ff"
-            style={{ width: "150px", height: "150px", padding: "30px", }}
-          ></lord-icon></div>
-            <div className="col-sm-4">
+        <div
+          className="row"
+          style={{
+            padding: "50px",
+            display: "flex",
+            justifyContent: "center",
+            textAlign: "center",
+          }}
+        >
+          <div className="col-sm-4">
             <lord-icon
-            src="https://cdn.lordicon.com/sbiheqdr.json"
-            trigger="hover"
-            colors="primary:#001d6e,secondary:#cfe2ff"
-            style={{ width: "150px", height: "150px", padding: "30px", }}
-          ></lord-icon>
-            </div>
-            <div className="col-sm-4">
+              src="https://cdn.lordicon.com/iltqorsz.json"
+              trigger="hover"
+              colors="primary:#001d6e,secondary:#cfe2ff"
+              style={{ width: "150px", height: "150px", padding: "30px" }}
+            ></lord-icon>
+          </div>
+          <div className="col-sm-4">
             <lord-icon
-            src="https://cdn.lordicon.com/zpxybbhl.json"
-            trigger="hover"
-            colors="primary:#001d6e,secondary:#cfe2ff"
-            style={{ width: "150px", height: "150px", padding: "30px", }}
-          ></lord-icon>
-            </div>
-          
-
-          
-
-          
+              src="https://cdn.lordicon.com/sbiheqdr.json"
+              trigger="hover"
+              colors="primary:#001d6e,secondary:#cfe2ff"
+              style={{ width: "150px", height: "150px", padding: "30px" }}
+            ></lord-icon>
+          </div>
+          <div className="col-sm-4">
+            <lord-icon
+              src="https://cdn.lordicon.com/zpxybbhl.json"
+              trigger="hover"
+              colors="primary:#001d6e,secondary:#cfe2ff"
+              style={{ width: "150px", height: "150px", padding: "30px" }}
+            ></lord-icon>
+          </div>
         </div>
         <div className="row">
           <div className="row row-cols-1 row-cols-md-2 g-4">
