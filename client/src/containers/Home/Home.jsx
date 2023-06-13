@@ -6,6 +6,9 @@ import Painter from "./img/painter-600w.png";
 // import SprayG from "./img/spray-gun-600w.png";
 import Polishing from "./img/polishing-machine-600w.png";
 import ServiceMan from "./img/serviceman-600w.png";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const Home = () => {
   return (
@@ -63,37 +66,153 @@ const Home = () => {
         <br /> <br />
         <div
           className="row"
-          style={{
-            padding: "50px",
-            display: "flex",
-            justifyContent: "center",
-            textAlign: "center",
-          }}
+          style={
+            {
+              // padding: "50px",
+              // display: "flex",
+              // justifyContent: "center",
+              // textAlign: "center",
+            }
+          }
         >
-          <div className="col-sm-4">
-            <lord-icon
-              src="https://cdn.lordicon.com/iltqorsz.json"
-              trigger="hover"
-              colors="primary:#001d6e,secondary:#cfe2ff"
-              style={{ width: "150px", height: "150px", padding: "30px" }}
-            ></lord-icon>
-          </div>
-          <div className="col-sm-4">
-            <lord-icon
-              src="https://cdn.lordicon.com/sbiheqdr.json"
-              trigger="hover"
-              colors="primary:#001d6e,secondary:#cfe2ff"
-              style={{ width: "150px", height: "150px", padding: "30px" }}
-            ></lord-icon>
-          </div>
-          <div className="col-sm-4">
-            <lord-icon
-              src="https://cdn.lordicon.com/zpxybbhl.json"
-              trigger="hover"
-              colors="primary:#001d6e,secondary:#cfe2ff"
-              style={{ width: "150px", height: "150px", padding: "30px" }}
-            ></lord-icon>
-          </div>
+          <Container>
+            <Row>
+              <Col
+                style={{
+                  // backgroundColor: "#001d6e",
+                  textShadow: "2px 2px 4px #000000",
+                  padding: "30px",
+                  display: "flex",
+                  justifyContent: "center",
+                  textAlign: "center",
+                }}
+              >
+                <h1 style={{ color: "#FEE2C5" }}>Our Promise</h1>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm={4}>
+                <Row>
+                  <lord-icon
+                    src="https://cdn.lordicon.com/iltqorsz.json"
+                    trigger="hover"
+                    colors="primary:#001d6e,secondary:#cfe2ff"
+                    style={{
+                      marginLeft: "auto",
+                      marginRight: "auto",
+                      width: "150px",
+                      height: "150px",
+                      // display: "flex",
+                      // justifyContent: "center",
+                      textAlign: "center",
+                    }}
+                  ></lord-icon>
+                </Row>
+                <Row>
+                  <h1
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      textAlign: "center",
+                    }}
+                  >
+                    Bulls Eye
+                  </h1>
+                </Row>
+                <Row>
+                  <p
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      textAlign: "center",
+                    }}
+                  >
+                    Get Your Money's Worth
+                  </p>
+                </Row>
+              </Col>
+              <Col sm={4}>
+                <Row>
+                  <lord-icon
+                    src="https://cdn.lordicon.com/sbiheqdr.json"
+                    trigger="hover"
+                    colors="primary:#001d6e,secondary:#cfe2ff"
+                    style={{
+                      marginLeft: "auto",
+                      marginRight: "auto",
+                      width: "150px",
+                      height: "150px",
+                      // display: "flex",
+                      // justifyContent: "center",
+                      textAlign: "center",
+                    }}
+                  ></lord-icon>
+                </Row>
+                <Row>
+                  <h1
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      textAlign: "center",
+                    }}
+                  >
+                    Mechanic
+                  </h1>
+                </Row>
+                <Row>
+                  <p
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      textAlign: "center",
+                    }}
+                  >
+                    Great Work
+                  </p>
+                </Row>
+              </Col>
+              <Col sm={4}>
+                <Row>
+                  <lord-icon
+                    src="https://cdn.lordicon.com/zpxybbhl.json"
+                    trigger="hover"
+                    colors="primary:#001d6e,secondary:#cfe2ff"
+                    style={{
+                         marginLeft: "auto",
+                      marginRight: "auto",
+                      width: "140px",
+                      height: "150px",
+                      // display: "flex",
+                      // justifyContent: "center",
+                      // textAlign: "center",
+                    }}
+                  ></lord-icon>
+                </Row>
+                <Row>
+                  <h1
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      textAlign: "center",
+                    }}
+                  >
+                     Consultation
+                  </h1>
+                </Row>
+                <Row>
+                  <p
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      textAlign: "center",
+                    }}
+                  >
+                    Free Estimate
+                  </p>
+                </Row>
+              </Col>
+            </Row>
+          </Container>
         </div>
         <div className="row">
           <div className="row row-cols-1 row-cols-md-2 g-4">
