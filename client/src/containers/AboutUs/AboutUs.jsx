@@ -5,7 +5,16 @@ function AboutUs() {
   return (
     <>
       <div className="container">
-        <h1 style={{ padding: "50px", textAlign: "center" }}>About Us</h1>
+        <h1 style={{ padding: "50px", 
+        textAlign: "center" }}>About Us</h1>
+        <div style={{ textAlign: "center" }}>
+          <lord-icon
+            src="https://cdn.lordicon.com/waumjsnp.json"
+            trigger="hover"
+            colors="primary:#001d6e,secondary:#cfe2ff"
+            style={{ width: "200px", height: "200px" }}
+          ></lord-icon>
+        </div>
         <div className="row">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -99,9 +108,9 @@ function AboutUs() {
         </div>
       </div>
       <br />
-        <br />
-        <br />
-        <br />
+      <br />
+      <br />
+      <br />
     </>
   );
 }

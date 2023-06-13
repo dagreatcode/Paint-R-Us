@@ -116,7 +116,9 @@ const ContactUs = () => {
             We Will Work Fast To Contact You! If we do not get in contact with
             you with in 2 days, Please call Us or Come Visit Us.
           </Alert.Heading>
-          Please make sure you leave your <strong>Name</strong> & <strong>Number</strong>, your <strong>Email</strong> and <strong>Message:</strong>
+          Please make sure you leave your <strong>Name</strong> &{" "}
+          <strong>Number</strong>, your <strong>Email</strong> and{" "}
+          <strong>Message:</strong>
           "services needed".
         </Alert>
       )}
@@ -130,6 +132,42 @@ const ContactUs = () => {
       >
         Contact Us
       </h1>
+      <div style={{ textAlign: "center" }}>
+        {" "}
+        <lord-icon
+          src="https://cdn.lordicon.com/zzcjjxew.json"
+          // margin="auto"
+          trigger="hover"
+          colors="primary:#001d6e,secondary:#cfe2ff"
+          state="hover-spin"
+          style={{
+            width: "200px",
+            height: "200px",
+            // display: "flex",
+            // justifyContent: "center",
+          }}
+        ></lord-icon>
+      </div>
+      <iframe
+        title="myFrame"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613507864!3d-6.194741395493371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x6b45e67356080477!2sPT%20Kulkul%20Teknologi%20Internasional!5e0!3m2!1sen!2sid!4v1601138221085!5m2!1sen!2sid"
+        // frameBorder="0"
+        width="90%"
+        height="600"
+        style={{
+          padding: "0",
+          border: "0",
+          margin: "auto",
+          allowFullScreen: "",
+          ariaHidden: "false",
+          tabIndex: "0",
+          display: "flex",
+          justifyContent: "center",
+          textAlign: "center",
+        }}
+      />
+
+      <br />
       <form>
         <div className="container">
           <div className="row">
@@ -251,8 +289,7 @@ const ContactUs = () => {
           >
             Send Request
           </Button>
-          <br />
-          <br />
+
           <br />
           <br />
           <div style={{ margin: "20px" }} className="row">
@@ -268,27 +305,7 @@ const ContactUs = () => {
           </div>
         </div>
       </form>
-      <iframe
-        title="myFrame"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613507864!3d-6.194741395493371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x6b45e67356080477!2sPT%20Kulkul%20Teknologi%20Internasional!5e0!3m2!1sen!2sid!4v1601138221085!5m2!1sen!2sid"
-        // frameBorder="0"
-        width="90%"
-        height="600"
-        style={{
-          padding: "0",
-          border: "0",
-          margin: "auto",
-          allowFullScreen: "",
-          ariaHidden: "false",
-          tabIndex: "0",
-          display: "flex",
-          justifyContent: "center",
-          textAlign: "center",
-        }}
-      />
-      <br />
-      <br />
-      <br />
+
       <br />
       <br />
       <br />
