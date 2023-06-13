@@ -18,6 +18,15 @@ function Portfolio() {
       >
         Portfolio
       </h1>
+      <div style={{textAlign: "center"}}>
+        {" "}
+        <lord-icon
+          src="https://cdn.lordicon.com/vixtkkbk.json"
+          trigger="hover"
+          colors="primary:#001d6e,secondary:#cfe2ff"
+          style={{ width: "200px", height: "200px" }}
+        ></lord-icon>
+      </div>
 
       <div className="container" style={{ textAlign: "center" }}>
         <div className="row">
