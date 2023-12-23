@@ -46,11 +46,13 @@ const Home = () => {
                 </div>
                 <div className="col-md-8">
                   <div className="card-body" style={{}}>
-                    <h5 className="card-title">Card title</h5>
+                    <h5 className="card-title">Auto Body Shop</h5>
                     <p className="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                      Backed by our National Lifetime Guarantee, our auto body
+                      repair specialists will repair your vehicle to its
+                      pre-accident condition. We'll carefully restore your
+                      vehicle's safety features, including airbags and crumple
+                      zones, to help get you back on the road safely.
                     </p>
                     <p className="card-text">
                       <small className="text-muted">
@@ -230,11 +232,12 @@ const Home = () => {
               >
                 <img src={BodyW} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
+                  <h5 className="card-title">Fixing the Problem</h5>
                   <p className="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                    Auto Body Repair Collision Repair Bumper Repair Fender
+                    Repair Dents / Scratches Frame Straightening Paintless Dent
+                    Repair / PDR We are your full service collision / auto body
+                    repair shop.
                   </p>
                 </div>
               </div>
@@ -253,11 +256,10 @@ const Home = () => {
               >
                 <img src={PaintR} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
+                  <h5 className="card-title">Priming</h5>
                   <p className="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                    With our easy and affordable paint packages, there's no
+                    better time to get your car looking like new again.
                   </p>
                 </div>
               </div>
@@ -276,10 +278,10 @@ const Home = () => {
               >
                 <img src={Painter} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
+                  <h5 className="card-title">Laying the Paint</h5>
                   <p className="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content.
+                    With the help of our equipment, we'll match your paint color
+                    Our First Class technicians will lay down an even coat.
                   </p>
                 </div>
               </div>
@@ -298,11 +300,10 @@ const Home = () => {
               >
                 <img src={Polishing} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
+                  <h5 className="card-title">2 Coats</h5>
                   <p className="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                    To top it off, we will apply a glossy clear coat for a
+                    factory-fresh finish
                   </p>
                 </div>
               </div>

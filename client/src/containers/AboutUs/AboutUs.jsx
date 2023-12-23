@@ -5,8 +5,7 @@ function AboutUs() {
   return (
     <>
       <div className="container">
-        <h1 style={{ padding: "50px", 
-        textAlign: "center" }}>About Us</h1>
+        <h1 style={{ padding: "50px", textAlign: "center" }}>About Us</h1>
         <div style={{ textAlign: "center" }}>
           <lord-icon
             src="https://cdn.lordicon.com/waumjsnp.json"
@@ -17,13 +16,12 @@ function AboutUs() {
         </div>
         <div className="row">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Chipped paint or sun damage can spoil your car’s look and resale
+            value, but our auto body and car paint repair can restore that new
+            car finish. Our expert technicians use state-of-the art equipment
+            and will repair your vehicle’s paint damage and get you back on your
+            way with a like-new finish. Our limited lifetime warranty gives you
+            peace of mind that it was done right the first time.
             <br />
             Our Paint-R-Us Certified Centers are the "best of the best." These
             Centers are distinguished for their quality of work in both auto
@@ -57,19 +55,17 @@ function AboutUs() {
         <div className="row">
           <div className="col-md-6 d-flex align-items-stretch">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Restoring the Rhythm of Your Life® means helping you every step of
+              the way to get you back on the road safely. Our work and our
+              limited lifetime warranty give you peace of mind when you get
+              behind the wheel of your vehicle. We will communicate with you
+              throughout the repair process, so you know exactly what is
+              happening with your vehicle.
               <br />
-              Our Paint-R-Us Certified Centers are the "best of the best." These
-              Centers are distinguished for their quality of work in both auto
-              painting and body repairs. Certified Centers have to pass a
-              rigorous certification process annually that is a comprehensive
-              review of their business and repair services.
+              We've focused on providing the best services with the highest
+              standards in mind. We restore cars to pre-collision condition and
+              we back every single repair with a written limited lifetime
+              warranty.
               <br />
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
