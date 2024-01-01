@@ -40,8 +40,7 @@ function Portfolio() {
               // style={{ width: "30", height: "24" }}
             />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              This car was in really bad shape.
             </p>
           </div>
           <div className="col-sm-6">
@@ -54,8 +53,7 @@ function Portfolio() {
               // style={{ width: "30", height: "24" }}
             />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             So we worked our magic.
             </p>
           </div>
         </div>
@@ -82,8 +80,7 @@ function Portfolio() {
               // style={{ width: "30", height: "24" }}
             />
             <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur.
+             And the results.
             </p>
           </div>
         </div>
@@ -91,7 +88,7 @@ function Portfolio() {
         <br />
         <br />
         <br />
-        <h3>Our proccess</h3>
+        {/* <h3>Our proccess</h3>
         <br />
         <br />
         <div className="row">
@@ -145,7 +142,7 @@ function Portfolio() {
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

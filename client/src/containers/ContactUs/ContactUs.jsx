@@ -33,23 +33,6 @@ const ContactUs = () => {
   };
   return (
     <>
-      {show ? (
-        <Alert variant="success" onClose={() => setShow(false)} dismissible>
-          <Alert.Heading>We Will Get Back To You ASAP!</Alert.Heading>
-          Email Sent Successfully. Thank you for choosing Paint-R-Us.
-        </Alert>
-      ) : (
-        <Alert variant="primary" onClose={() => setShow(false)} dismissible>
-          <Alert.Heading>
-            We Will Work Fast To Contact You! If we do not get in contact with
-            you with in 2 days, Please call Us or Come Visit Us.
-          </Alert.Heading>
-          Please make sure you leave your <strong>Name</strong> &{" "}
-          <strong>Number</strong>, your <strong>Email</strong> and{" "}
-          <strong>Message:</strong>
-          "services needed".
-        </Alert>
-      )}
       <h1
         style={{
           padding: "30px",
@@ -97,13 +80,7 @@ const ContactUs = () => {
         <div className="container">
           <div className="row">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Open 7 days a week. Show ups are welcome. Contact us at anytime.
             </p>
           </div>
           <br />
@@ -214,10 +191,26 @@ const ContactUs = () => {
           >
             Send Request
           </Button>
-
+          {show ? (
+            <Alert variant="success" onClose={() => setShow(false)} dismissible>
+              <Alert.Heading>We Will Get Back To You ASAP!</Alert.Heading>
+              Email Sent Successfully. Thank you for choosing Paint-R-Us.
+            </Alert>
+          ) : (
+            <Alert variant="primary" onClose={() => setShow(false)} dismissible>
+              <Alert.Heading>
+                We Will Work Fast To Contact You! If we do not get in contact
+                with you with in 2 days, Please call Us or Come Visit Us.
+              </Alert.Heading>
+              Please make sure you leave your <strong>Name</strong> &{" "}
+              <strong>Number</strong>, your <strong>Email</strong> and{" "}
+              <strong>Message:</strong>
+              "services needed".
+            </Alert>
+          )}
           <br />
           <br />
-          <div style={{ margin: "20px" }} className="row">
+          {/* <div style={{ margin: "20px" }} className="row">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -227,7 +220,7 @@ const ContactUs = () => {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-          </div>
+          </div> */}
         </div>
       </form>
 
