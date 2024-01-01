@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -24,38 +25,32 @@ const Footer = () => {
             <div className="col-sm-4" style={{ color: "#C4DDFF" }}>
               <h4>Address</h4>
               <p style={{ color: "#FEE2C5" }}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                3490 Lorem rd ipsum dolor 30930 
               </p>
             </div>
             <div className="col-sm-4" style={{ color: "#C4DDFF" }}>
               <h4>Hours Of Operation</h4>
               <p style={{ color: "#FEE2C5" }}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Sunday - Saturday, we are open all day.
               </p>
             </div>
             <div className="col-sm-4" style={{ color: "#FEE2C5" }}>
               <h4 style={{ color: "#C4DDFF" }}>Quick Links </h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
+              <Link to="/" style={{ color: "#C4DDFF" }}>
+                Home
+              </Link>
+              <br />
+              <Link to="/aboutus" style={{ color: "#C4DDFF" }}>
+                About Us
+              </Link>
+              <br />
+              <Link to="/contactus" style={{ color: "#C4DDFF" }}>
+                Contact Us
+              </Link>
+              <br />
+              <Link to="/portfolio" style={{ color: "#C4DDFF" }}>
+                Portfolio
+              </Link>
             </div>
           </div>
           <div className="row">
