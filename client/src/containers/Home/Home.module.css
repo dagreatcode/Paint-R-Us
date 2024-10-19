@@ -1,0 +1,20 @@
+.carAnimation {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carAnimation img {
+    position: absolute;
+    width: 100px; /* Adjust size as necessary */
+    animation: moveCar 10s linear infinite; /* Adjust duration for speed */
+  }
+  
+  @keyframes moveCar {
+    0% {
+      left: -100px; /* Start off the screen */
+    }
+    100% {
+      left: 100%; /* Move off the screen */
+    }
+  }
+  

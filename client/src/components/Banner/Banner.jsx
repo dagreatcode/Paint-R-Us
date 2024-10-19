@@ -2,57 +2,35 @@ import React from "react";
 import CarBanner from "./img/banner3.png";
 import { Link } from "react-router-dom";
 import logoTag from "./img/Component 1.png";
+import styles from './Banner.module.css'; // Assuming you're using CSS modules
+
 function Banner() {
   return (
-    <>
-      <div
-        className="row"
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          textAlign: "center",
-          position: "relative",
-        }}
-      >
-        <img
-          style={{ textAlign: "center" }}
-          src={CarBanner}
-          alt="this is a car banner"
-        />
-        <div
-          style={{
-            fontFamily: "Arial, Helvetica, sans-serif",
-            fontStyle: "italic",
-            fontSize: "20px",
-            textAlign: "center",
-            position: "absolute",
-            top: "10%",
-          }}
-        >
-          <img src={logoTag} alt="logo" />
-        </div>
-        <div style={{ textAlign: "center", position: "absolute", top: "50%" }}>
-          <a
-            href="tel:(1)(4708540470)"
-            className="btn btn-dark btn-sm"
-            tabindex="-1"
-            role="button"
-            aria-disabled="true"
-          >
-            Call
-          </a>
-          <Link
-            to="/ContactUs"
-            className="btn btn-dark btn-sm"
-            tabindex="-1"
-            role="button"
-            aria-disabled="true"
-          >
-            Appointment
-          </Link>
-        </div>
+    <div className={styles.bannerContainer}>
+      <img
+        className={styles.bannerImage}
+        src={CarBanner}
+        alt="Car Banner"
+      />
+      <div className={styles.overlay}></div>
+      <div className={styles.logoContainer}>
+        <img src={logoTag} alt="Logo" className={styles.logo} />
       </div>
-    </>
+      <div className={styles.buttonContainer}>
+        <a
+          href="tel:(1)(4708540470)"
+          className={`btn btn-primary btn-lg ${styles.button}`}
+        >
+          Call
+        </a>
+        <Link
+          to="/ContactUs"
+          className={`btn btn-primary btn-lg ${styles.button}`}
+        >
+          Appointment
+        </Link>
+      </div>
+    </div>
   );
 }
 
